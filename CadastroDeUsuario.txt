@@ -14,6 +14,11 @@
         <br /><input name="Nome" type="text" value="" placeholder="Digite seu nome" required="required" />
         <br />
         <br />
+        Email de login
+        <br /> <input name="Email" type="text" value="" placeholder="Digite Email" required="required" />
+        <br />
+        <br />
+      
          Senha
         <br /> <input name="Senha" type="text" value="" placeholder="Digite a senha" required="required" />
         <br />
