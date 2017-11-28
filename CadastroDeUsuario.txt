@@ -1,3 +1,4 @@
+<html>
 <head>
     <script src="~/Scripts/bootstrap.css"></script>
     <script src="~/Scripts/jquery-3.2.1.js"></script>
@@ -13,4 +14,12 @@
         <br /><input name="Nome" type="text" value="" placeholder="Digite seu nome" required="required" />
         <br />
         <br />
+         Senha
+        <br /> <input name="Senha" type="text" value="" placeholder="Digite a senha" required="required" />
+        <br />
+        <br />
+
+        <button class="btn btn-primary" type="button" name="Enviar" value="">Cadastrar</button>
 </body>
+</form>
+<html>
