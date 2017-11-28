@@ -1,3 +1,29 @@
+@using WebMatrix.Data
+
+@{
+    Page.Title = "Cadastro de Usuarios";
+
+
+    int result = 1;
+
+    if (IsPost)
+    {
+        var db = Database.Open("DbLogin");
+
+        result = db.Execute("insert into Usuario (Nome, Email, Senhas ) values (@0, @1, @2)",
+             Request.Form["Nome"],
+             Request.Form["Email"],
+             Request.Form["Senha"]);
+
+        if (result == 1)
+        {
+            Response.Redirect("~/Views/listaDeUsuarios.cshtml");
+        }
+
+        db.Close();
+    }
+
+}
 <html>
 <head>
     <script src="~/Scripts/bootstrap.css"></script>
