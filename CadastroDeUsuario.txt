@@ -1,0 +1,16 @@
+<head>
+    <script src="~/Scripts/bootstrap.css"></script>
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
+</head>
+<body>
+
+    <style>
+       
+       
+    </style>
+    <form action="" method="post" class="panel container">
+        Nome do Usuario
+        <br /><input name="Nome" type="text" value="" placeholder="Digite seu nome" required="required" />
+        <br />
+        <br />
+</body>
